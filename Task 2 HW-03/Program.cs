@@ -14,7 +14,6 @@ namespace Task_2_HW_03
             string URL = @"C:\\Users\\dsank\\Desktop\\Test";
             Console.WriteLine(GetDirectorySize(URL));
         }
-
         static long GetDirectorySize(string path)
         {
             long size = 0;
